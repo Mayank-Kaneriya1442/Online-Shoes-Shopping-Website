@@ -1,0 +1,162 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+        
+    }
+    
+    /* Navbar Styles */
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3ebf0;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 150px;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+.navbar {
+    background-color: #e0ebf5;
+    padding: 10px 10px; /* Increased padding for top and bottom */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    /* About Us Section Styles */
+   /* About Us Section Styles */
+.about-us {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    /* About Us Section Styles */
+
+    background-image: linear-gradient(to bottom right,rgb(236, 243, 166), rgb(241, 169, 214));
+    /* Path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional */
+    color: #ffffff; /* Change text color for contrast */
+}
+
+
+.about-us h1 {
+    
+    margin-bottom: 30px;
+    font-weight: bold;
+        color:black; /* Try #000000, #000080, or #006400 */
+        font-size: 24px;
+        font-weight: bold; 
+}
+
+/* Card Styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+footer h4{
+    color: #007bff;
+}
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+/* Card Image Styles */
+.card-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+}
+    /* Footer Styles */
+     /* Footer Styles */
+ footer {
+    background-color: #a0b0c0;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    position: relative;
+    
+}
+ 
+   

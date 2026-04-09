@@ -1,0 +1,165 @@
+
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('../images/contactus.png'); /* Set the path to your background image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Navbar Styles */
+    /* Navbar Styles */
+    .logo {
+        margin-right: 5px; /* Add space to the right of the logo */
+        
+    }
+    .logo img {
+        display: block;
+        height: 55px; /* Maintain the height */
+        width: 55px; /* Maintain the width */
+        padding: 8px; /* Add padding around the logo */
+    }
+    
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e0ebf5;
+        padding: 0 20px; /* Adjust padding */
+        height: 60px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .nav-links li {
+        position: relative;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    
+    .nav-links a:hover {
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        list-style: none;
+        padding: 10px 0;
+        min-width: 150px;
+    }
+    
+    .dropdown-menu li a {
+        padding: 10px;
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    /* Contact Form Styles */
+    .container {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .contact-header h1 {
+        margin: 0;
+        color: #333;
+    }
+    
+    .contact-header p {
+        color: #555;
+        margin: 5px 0 0;
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-form label {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .contact-form button {
+        padding: 12px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    footer {
+        background-color: #a0b0c0;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+    }
+    

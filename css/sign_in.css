@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/signin back.png'); /* Set the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: rgba(188, 127, 127, 0.85); /* Transparent white background */
+    width: 100%;
+    max-width: 400px;
+    padding: 50px 30px 30px; /* Top padding adjusted for the avatar */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Important for positioning the avatar */
+}
+
+/* Avatar Styles */
+.avatar {
+    position: absolute;
+    top: -50px; /* Adjusted to move half of the avatar out of the container */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    box-shadow: 0 4px 9px rgb(8, 0, 0);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Add some space between the avatar and form */
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    background-color: #380113;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #911e65;
+}
+
+/* Link Styles */
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+p a {
+    color: #911e65;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
